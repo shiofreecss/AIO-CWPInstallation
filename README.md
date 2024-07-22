@@ -28,30 +28,30 @@ To install and configure CWP using this repository on AlmaLinux 9, follow these 
    ```
 
 2. Make the setup script executable:
-   \`\`\`bash
+   ```bash
    chmod +x setup.sh
-   \`\`\`
+   ```
 
 3. Run the setup script:
-   \`\`\`bash
+   ```bash
    ./setup.sh
-   \`\`\`
+   ```
 
 ## Custom Port Configuration
 
 To configure CWP to use custom ports, you can run the \`cwp_port_modified.sh\` script after installation:
 
-\`\`\`bash
+   ```bash
 chmod +x cwp_port_modified.sh
 ./cwp_port_modified.sh
-\`\`\`
+   ```
 
 For SSH-specific configurations, use the \`cwp_port_ssh.sh\` script:
 
-\`\`\`bash
+   ```bash
 chmod +x cwp_port_ssh.sh
 ./cwp_port_ssh.sh
-\`\`\`
+   ```
 
 ## Security Configurations
 
