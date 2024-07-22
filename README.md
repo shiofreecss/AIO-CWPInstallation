@@ -42,30 +42,30 @@ To install and configure CWP using this repository on AlmaLinux 9, follow these 
 To configure CWP to use custom ports, you can run the \`cwp_port_modified.sh\` script after installation:
 
    ```bash
-chmod +x cwp_port_modified.sh
-./cwp_port_modified.sh
+   chmod +x cwp_port_modified.sh
+   ./cwp_port_modified.sh
    ```
 
 For SSH-specific configurations, use the \`cwp_port_ssh.sh\` script:
 
    ```bash
-chmod +x cwp_port_ssh.sh
-./cwp_port_ssh.sh
+   chmod +x cwp_port_ssh.sh
+   ./cwp_port_ssh.sh
    ```
 
 ## Security Configurations
 
-The \`security\` directory contains modified configuration files to enhance the security of your CWP installation. These files replace the default configurations and provide better security practices.
+The `security` directory contains modified configuration files to enhance the security of your CWP installation. These files replace the default configurations and provide better security practices.
 
 ### Modified Files
 
-- \`cwpsrv.conf_modified\`: Strengthened server configuration for CWP.
-- \`sshd_config_modified\`: Enhanced SSH configuration to prevent unauthorized access.
-- \`users.conf_modified\`: Improved user management configurations.
+- `cwpsrv.conf_modified`: Strengthened server configuration for CWP.
+- `sshd_config_modified`: Enhanced SSH configuration to prevent unauthorized access.
+- `users.conf_modified`: Improved user management configurations.
 
 ### Default Backup Configurations
 
-The \`default\` subdirectory within \`security\` contains the default configuration files that are backed up during the modification process. In case you need to revert to the original settings, you can find the default configurations here.
+The `default` subdirectory within `security` contains the default configuration files that are backed up during the modification process. In case you need to revert to the original settings, you can find the default configurations here.
 
 ## Important Notice
 
