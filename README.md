@@ -83,5 +83,3 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 ## Contact
 
 For any inquiries or support, please contact [katanukisatoshi@gmail.com](mailto:katanukisatoshi@gmail.com).
-
----
