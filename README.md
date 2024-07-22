@@ -22,10 +22,10 @@ This repository contains scripts and configurations to set up and secure CentOS 
 To install and configure CWP using this repository on AlmaLinux 9, follow these steps:
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/katanukisatoshi/aio_cwp_installation.git
    cd aio_cwp_installation
-   \`\`\`
+   ```
 
 2. Make the setup script executable:
    \`\`\`bash
